@@ -1,4 +1,4 @@
-require "./lib.cr"
+require "./libs.cr"
 require "option_parser"
 
 # TODO: Write documentation for `Rspm`
