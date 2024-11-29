@@ -1,0 +1,13 @@
+name: rspm
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  rspm:
+    main: src/rspm.cr
+
+crystal: '>= 1.14.0'
+
+license: MIT
