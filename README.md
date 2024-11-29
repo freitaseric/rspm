@@ -5,14 +5,20 @@ A package manager for everyone and any system.
 ## Installation
 
 <!-- TODO: Write installation instructions here -->
+> [!NOTE] 
+> Installation guide begin later...
 
 ## Usage
 
 <!-- TODO: Write usage instructions here -->
+> [!NOTE] 
+> Usage guide begin later...
 
 ## Development
 
 <!-- TODO: Write development instructions here -->
+> [!NOTE] 
+> Development guide begin later...
 
 ## Contributing
 
@@ -22,6 +28,6 @@ A package manager for everyone and any system.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-## Contributors
+## Contributors ![GitHub contributors](https://img.shields.io/github/contributors/freitaseric/rspm)
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [@freitaseric](https://github.com/freitaseric) - creator and maintainer
