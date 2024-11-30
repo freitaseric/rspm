@@ -1,5 +1,5 @@
 COMPILER = crystal
-COMPILER_FLAGS = --release --verbose --progress 
+COMPILER_FLAGS = --release --verbose --progress -O3
 EXECUTABLE = rspm
 PROGRAM_FILE = ./src/rspm.cr
 
