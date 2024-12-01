@@ -1,7 +1,7 @@
 require "yaml"
 
 module Utils
-  def self.get_version
+  def self.version
     yaml = File.open("shard.yml") do |file|
       YAML.parse(file)
     end
@@ -11,7 +11,6 @@ module Utils
 end
 
 module Constants
-  NAME = "Roughly Simple Package Manager(RSPM)"
-  VERSION = Utils.get_version()
+  NAME    = "Roughly Simple Package Manager(RSPM)"
+  VERSION = Utils.version
 end
-

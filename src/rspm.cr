@@ -1,9 +1,8 @@
 require "./libs.cr"
 require "option_parser"
 
-# TODO: Write documentation for `Rspm`
 module Rspm
-  parser = OptionParser.new do |parser|
+  option_parser = OptionParser.new do |parser|
     parser.banner = Constants::NAME
 
     parser.on "-v", "--version", "Show program version" do
@@ -17,7 +16,7 @@ module Rspm
     end
   end
 
-  parser.parse
+  option_parser.parse
 
   puts parser
 end
